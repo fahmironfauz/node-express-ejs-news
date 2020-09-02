@@ -11,8 +11,8 @@ app.use(logger);
 app.use('*/css', express.static(path.join(__dirname, 'public/css')))
 app.use(router);
 
-app.get('/ErrorYeah', (req, res)=> {
-    yeahError //Error yeah
+app.get('/ikiErr', (req, res)=> {
+    ikiError //Error
 })
 
 //500 Internal Server Error
